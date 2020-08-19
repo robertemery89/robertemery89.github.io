@@ -16,9 +16,6 @@ nav {
     margin-top: 0;
   }
 
-img .about-pic {
-    width: 80%;
-}
 
 figure {
     margin: 0px;
@@ -94,8 +91,8 @@ p {
 p {   
 }
 
-img .about-pic {
-    width: 100%;
+.about-pic {
+    width: 30%;
     }
 
 footer {
@@ -134,10 +131,6 @@ a {
     padding-left: 24px;
 }
 
-
-.about-pic {
-    width: 100%;
-}
 
 .banner {
     color:rgb(226, 242, 104);
