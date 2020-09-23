@@ -82,9 +82,12 @@ h3 {
 
 .description h2{
     font-family: 'Montserrat', sans-serif;
+    padding: 0 1rem
 }
 .description h3{
     font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 0 1rem
 }
 hr{
     height: 2px;
@@ -92,7 +95,7 @@ hr{
 }
 
 p {
-    padding: 1rem;
+    padding: 0.5rem 1rem;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
