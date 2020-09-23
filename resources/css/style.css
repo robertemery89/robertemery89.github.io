@@ -80,7 +80,10 @@ h2 {
 h3 {   
 }
 
-.description h2{
+img {
+    image-orientation: from-image;}
+
+    .description h2{
     font-family: 'Montserrat', sans-serif;
     padding: 0 1rem
 }
