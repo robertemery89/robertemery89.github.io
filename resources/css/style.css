@@ -268,33 +268,33 @@ a {
     height: 100%;
 }
 
-.top-day-hikes, .top-backpacks {
+.top-easy-hikes, .top-backpacks, .top-strenuous-day-hikes, .top-boston-hikes {
     width: 49%;
     display: inline-block;
 }
 
-.top-day-hikes h3, .top-backpacks h3 {
+.top-easy-hikes h3, .top-backpacks h3, .top-strenuous-day-hikes h3, .top-boston-hikes h3 {
     text-align: center;
 }
 
-.top-day-hikes img, .top-backpacks img {
+.top-easy-hikes img, .top-backpacks img, .top-strenuous-day-hikes img, .top-boston-hikes img{
     width: 40%;
     display: inline-block
 }
 
-.top-day-hikes ol, .top-backpacks ol {
+.top-easy-hikes ol, .top-backpacks ol, .top-strenuous-day-hikes ol, .top-boston-hikes ol {
     display: inline-block;
     width: 50%;
     top: 0px;
     vertical-align: top;
 }
-.top-day-hikes li, .top-backpacks li {
+.top-easy-hikes li, .top-backpacks li, .top-strenuous-day-hikes li, .top-boston-hikes li{
     margin-bottom: 5px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
 }
 
-.top-day-hikes a, .top-backpacks a {
+.top-easy-hikes a, .top-backpacks a, .top-strenuous-day-hikes a, .top-boston-hikes a{
     text-decoration: none;
     color: rgb(71, 89, 29);
 }
