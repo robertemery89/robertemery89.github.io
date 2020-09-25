@@ -423,7 +423,7 @@ a {
     display: flex;
     justify-content: space-between;
 }
-.add-to-any {
+.share {
     display: inline-block;
     margin-top: auto;
     margin-bottom: auto;
