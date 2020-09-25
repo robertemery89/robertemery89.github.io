@@ -201,7 +201,6 @@ a {
 }
 .cover-image {
     width: 100%;
-    z-index: -1;
 }
 
 .falcon-book {
@@ -213,8 +212,13 @@ a {
     vertical-align: text-bottom;
 }
 
-.regions {
+.regions, .other-regions {
     margin: 0 auto;
+    text-align: center;
+}
+
+.regions h3, .other-regions h3 {
+    text-align: left;
 }
 
 .region-link {
@@ -428,6 +432,9 @@ a {
     margin-top: auto;
     margin-bottom: auto;
 }
+.share-home {
+    text-align: center;
+}
 #previous {
     text-align: left;
 }
@@ -435,32 +442,102 @@ a {
     text-align: right;
     float: right;
 }
-@media only screen and (max-width: 1000px) {
+
+
+@media screen and (max-width: 991px) {
+    body{
+        background-color:#fff;
+    }
     .sidebar {
         float: none;
-        width: 100%;
-        margin: 2%;
+        width: 98%;
+        padding: 0;
     }
+    
     .content {
         float: none;
-        width: 100%;
-        margin: 2%;
+        width: 98%;
     }
+    
     main {
         width: 100%;
         margin-top: 0px;
     }
-    .content-containter {
-        padding: 2px;
-    }
+       
     .content-title {
-        font-size: 40px;
-    }    
+        font-size: 2.8rem;
+    }
+    #area-info-bar, #trail-stats-bar{
+        padding:0;
+    }
+    #highlights, #challenges{
+        max-width: 49%;
+    }
+    #challenges{
+        max-width: 30%;
+    }
+    #region-hikes, #regions-small, #resources{
+        display: none;
+    }
+    #location, #route{
+        width: 48%;
+        margin: 0;
+    } 
+    nav img {
+        display: none;
+    }
+    .top-easy-hikes ol, .top-backpacks ol, .top-strenuous-day-hikes ol, .top-boston-hikes ol {
+        width: 98%
+    }
+    .top-easy-hikes img, .top-backpacks img, .top-strenuous-day-hikes img, .top-boston-hikes img{
+    width: 100%;
+}
 }
 
-@media only screen and (max-width: 1000px) {
-    .main {
-        margin-top: 0px;
-    }
+@media screen and (max-width: 479px) {
     
+    ul {
+        margin: 0;
+        padding: 3%;
+    }
+    #location, #route{
+        width: 98%;
+        margin: 0 1%;
+    }
+    .content-title {
+        font-size: 1.4rem;
+    }
+    #highlights, #challenges{
+        max-width: 100%;
+    }
+    #trail-stats-bar {
+        display: inline-block;
+        flex-direction: none;
+        justify-content: none;
+        flex-wrap: none;
+        }
+    .stat-block{
+        margin-right: none;
+        vertical-align: top;
+    }
+    #time-stats, #distance-stats{
+        width: 30%;
+        display: inline-block;
+    }
+    #elevation-stats, #wildlife{
+        width: 60%;
+        display: inline-block;
+    }
+    #trails {
+        display: none;
+    }
+    img.two-align-one-vert, img.two-align, img#horizontal-two, img.three-align {
+        width: 100%;
+    }
+    .top-easy-hikes, .top-backpacks, .top-strenuous-day-hikes, .top-boston-hikes {
+        width: 100%;
+    }
+    .region-link {
+        width: 100%;
+    }
 }
