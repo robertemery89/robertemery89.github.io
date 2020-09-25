@@ -419,7 +419,15 @@ a {
     margin:0;
     font-weight: 500;
 }
-
+.next-previous {
+    display: flex;
+    justify-content: space-between;
+}
+.add-to-any {
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
 #previous {
     text-align: left;
 }

@@ -12,6 +12,11 @@
     </script>
     <link href="resources/css/style.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <script language="javascript">
+        function emailCurrentPage(){
+            window.location.href="mailto:?subject="+document.title+"&body="+escape(window.location.href);
+        }
+    </script>
     <title>Bradley Palmer State Park</title>
 </head>
 <body>
@@ -170,7 +175,12 @@
             </div>
             <div class="next-previous">
                 <a class="next-button-button" id="previous"href="091920_tripyramids.html"><h3>Previous Trip:</h3><h4>Mount Tripyramid</h4></a>
-                <!--<a class="next-button-button" id="next"href=""><h3>Next Trip:</h3><h4></h4></a>-->
+                <div class="share">
+                    <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Frobsinthewoods.com%2F092020_bradley_palmer.html&layout=button&size=small&width=67&height=20&appId" width="67" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    <a href="javascript:emailCurrentPage()">Mail this page!</a>
+                </div>
+                <a class="next-button-button" id="next"href=""><h3>Next Trip:</h3><h4></h4></a>
             </div>
         </div>
         <div class="clear"></div>
