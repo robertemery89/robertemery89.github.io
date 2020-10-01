@@ -392,10 +392,11 @@ a {
     width: 100%;
     margin-right: 1%;
 }
-
 .stat-block {
-    margin-right: 1rem;
+    margin-right: 1%;
 }
+
+
 
 .next-button-button {
     background-color: rgb(71, 89, 29);  
@@ -442,7 +443,9 @@ a {
     text-align: right;
     float: right;
 }
-
+.mobile-regions {
+    display: none;
+}
 
 @media screen and (max-width: 991px) {
     body{
@@ -492,6 +495,30 @@ a {
     .top-easy-hikes img, .top-backpacks img, .top-strenuous-day-hikes img, .top-boston-hikes img{
     width: 100%;
 }
+    .mobile-regions {
+        display: inline-block;
+        text-align: center;
+    }
+    .mobile-regions h3{
+        text-align: center;
+    }
+    #distance-stats {
+        max-width: 10%;
+    }
+    #elevation-stats {
+        max-width: 25%;
+    }
+    #time-stats {
+        max-width: 10%;
+    }
+    #trails {
+        max-width: 25%;
+    }
+    #wildlife {
+        max-width: 25%;
+    }
+   
+
 }
 
 @media screen and (max-width: 479px) {
@@ -520,6 +547,10 @@ a {
         margin-right: none;
         vertical-align: top;
     }
+    #distance-stats, #elevation-stats, #time-stats, #trails, #wildlife  {
+        max-width: none;
+    }
+   
     #time-stats, #distance-stats{
         width: 30%;
         display: inline-block;
@@ -531,7 +562,7 @@ a {
     #trails {
         display: none;
     }
-    img.two-align-one-vert, img.two-align, img#horizontal-two, img.three-align {
+    img.two-align-one-vert, img.two-align, img#horizontal-two, img.three-align, #horizontal-three {
         width: 100%;
     }
     .top-easy-hikes, .top-backpacks, .top-strenuous-day-hikes, .top-boston-hikes {
@@ -540,4 +571,11 @@ a {
     .region-link {
         width: 100%;
     }
+    .mobile-regions {
+        display: inline-block;
+    }
+    .share {
+        text-align: center;
+    }
+}
 }
