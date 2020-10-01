@@ -165,6 +165,9 @@ a {
     flex-wrap: wrap;
     padding-left: 24px;
 }
+.stats-date{
+    width: 100%;
+}
 
 #area-info-bar span {
     margin-bottom: 0.5rem;
