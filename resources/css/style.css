@@ -294,6 +294,8 @@ a {
     width: 50%;
     top: 0px;
     vertical-align: top;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .top-easy-hikes li, .top-backpacks li, .top-strenuous-day-hikes li, .top-boston-hikes li{
     margin-bottom: 5px;
