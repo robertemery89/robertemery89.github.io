@@ -363,12 +363,12 @@ a {
 
 .two-align-one-vert {
     display: inline-block;
-    width: 35.5%;
+    width: 35.75%;
 }
 
 .two-align {
     display: inline-block;
-    width: 49.5%;
+    width: 49.6%;
     justify: space-between;
 }
 
@@ -377,7 +377,7 @@ a {
 }
 
 #horizontal-two {
-    width: 63.3%;
+    width: 63.55%;
 }
 
 .three-align {
@@ -387,6 +387,18 @@ a {
 
 #horizontal-three {
     width: 44.4%
+}
+
+.vid-pic-vid {
+    display: inline-block;
+    /*width: 42.5%;*/
+    justify: space-between;
+}
+
+.vid-pic-pic {
+    display: inline-block;
+    width: 56.6%;
+    justify: space-between;
 }
 .trail-img {
     width: 50%;
